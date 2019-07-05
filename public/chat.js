@@ -1,6 +1,6 @@
 $(function()
 {
-    var socket=io.connect("https://converse-chat.herokuapp.com/")
+    var socket=io.connect("http://localhost:3000")
 
     var message = $("#message")
 	var username = $("#username")

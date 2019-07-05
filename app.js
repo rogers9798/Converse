@@ -8,7 +8,7 @@ app.get('/',(req,res)=>
 {
 res.render('index');
 });
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 server = app.listen(port)
 
 const io=require('socket.io')(server)
