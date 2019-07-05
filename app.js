@@ -8,8 +8,8 @@ app.get('/',(req,res)=>
 {
 res.render('index');
 });
-
-server = app.listen(3000)
+var port = process.env.PORT || 8080;
+server = app.listen(port)
 
 const io=require('socket.io')(server)
 
