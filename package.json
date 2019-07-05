@@ -1,0 +1,26 @@
+{
+  "name": "converse",
+  "version": "1.0.0",
+  "description": "Chat app using Websockets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogers9798/Converse.git"
+  },
+  "author": "rogers9798",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogers9798/Converse/issues"
+  },
+  "homepage": "https://github.com/rogers9798/Converse#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1",
+    "socket.io": "^2.2.0"
+  }
+}
