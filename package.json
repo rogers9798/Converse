@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
-    
   },
   "repository": {
     "type": "git",
@@ -19,9 +18,12 @@
   },
   "homepage": "https://github.com/rogers9798/Converse#readme",
   "dependencies": {
+    "bufferutil": "4.0.1",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "nodemon": "^1.19.1",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "utf-8-validate": "5.0.2",
+    "ws": "7.0.1"
   }
 }

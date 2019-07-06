@@ -1,6 +1,7 @@
+
 $(function()
-{
-    var socket=io.connect("http://localhost:8080")
+{   
+    var socket=io.connect("http://localhost:8080");
 
     var message = $("#message")
 	var username = $("#username")

@@ -13,9 +13,13 @@ res.render('index');
 });
 
 var port = process.env.PORT || 8080;
-server = app.listen(port)
+
+server = app.listen(port,()=>{
+    console.log("server listening on: "+port);
+});
 
 const io=require('socket.io')(server)
+
 
 io.on('connection',(socket)=>
 {
