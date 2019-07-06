@@ -4,7 +4,6 @@ var http=require('http').Server(app);
 
 app.set('view engine', 'ejs')
 
-app.set('views', __dirname + '/views');
 app.use(express.static(__dirname +'/public'))
 
 
@@ -19,7 +18,7 @@ server = http.listen(port,()=>{
     console.log("server listening on: "+port);
 });
 
-var io=require('socket.io')(http)
+var io=require('socket.io')(http);
 
 
 io.on('connection',(socket)=>
