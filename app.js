@@ -12,7 +12,7 @@ app.get('/',(req,res)=>
 res.render('index');
 });
 
-var port = process.env.PORT || 8080;
+var port = 8080;
 
 server = app.listen(port,()=>{
     console.log("server listening on: "+port);
