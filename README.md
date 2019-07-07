@@ -26,6 +26,10 @@ Converse is a real time chat app made using nodeJS and used sockets for conversi
 
 ## Note
 
+* To chat in the room, the clients or the users have to open the same url i.e, http://converse-chat.herokuapp.com.
+
+* Then change your username a/c to your need and start conversation.
+
 * This app works only in http based url and so only open `http://converse-chat.herokuapp.com` for proper working.
 
 
