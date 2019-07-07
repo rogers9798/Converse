@@ -1,5 +1,5 @@
 
-(function()
+$(function()
 {   
     var socket=io();
 
