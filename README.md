@@ -24,5 +24,9 @@ Converse is a real time chat app made using nodeJS and used sockets for conversi
 * The inteface routes to <code>`localhost:3000/views/index.ejs`</code> using nodeJS.<br>
 * Used sockets for real time conversation.
 
+## Note
+
+* This app works only in http based url and so only open `http://converse-chat.herokuapp.com` for proper working.
+
 
 [![img shields.io](https://img.shields.io/badge/JARVIS-rogers9798-orange.svg)](https://github.com/rogers9798/Converse)
