@@ -22,6 +22,7 @@
     "ejs": "^2.6.2",
     "express": "^4.17.1",
     "http": "0.0.0",
+    "https": "^1.0.0",
     "nodemon": "^1.19.1",
     "socket.io": "^2.2.0",
     "utf-8-validate": "5.0.2"
