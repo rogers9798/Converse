@@ -1,6 +1,6 @@
 var express = require('express');
 var app=express();
-var http=require('http').Server(app);
+
 
 app.set('view engine', 'ejs')
 
@@ -14,11 +14,11 @@ res.render('index');
 
 var port = process.env.PORT || 8080;
 
-server = http.listen(port,()=>{
+server = app.listen(port,()=>{
     console.log("server listening on: "+port);
 });
 
-var io=require('socket.io')(http);
+var io=require('socket.io')(server);
 
 
 io.on('connection',(socket)=>
