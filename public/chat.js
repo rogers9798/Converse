@@ -1,7 +1,8 @@
+var socket=io();
 
 $(function()
 {   
-    var socket=io();
+    
 
     var message = $("#message")
 	var username = $("#username")
@@ -37,4 +38,4 @@ $(function()
 		feedback.html("<p><i>" + data.username + " is typing a message..." + "</i></p>")
    })
 
-})();
+})()
