@@ -1,5 +1,5 @@
 
-$(function()
+(function()
 {   
     var socket=io();
 
@@ -37,4 +37,4 @@ $(function()
 		feedback.html("<p><i>" + data.username + " is typing a message..." + "</i></p>")
    })
 
-});
+})();
